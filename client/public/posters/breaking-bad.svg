@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Во все тяжкие" font-family="Inter, 'Segoe UI', Roboto, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(41 55% 24%)"/><stop offset="1" stop-color="hsl(96 60% 9%)"/></linearGradient>
+    <radialGradient id="orb" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="hsl(41 90% 80%)"/><stop offset="1" stop-color="hsl(81 70% 38%)"/></radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#0F1016" stop-opacity="0"/><stop offset="1" stop-color="#0F1016" stop-opacity="0.95"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <g>
+    <rect x="0" y="0" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="26" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="52" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="78" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="104" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="130" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="156" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="182" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="208" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="234" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="260" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="286" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="312" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="338" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="364" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="390" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="416" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="442" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="468" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="494" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="520" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="546" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="572" width="400" height="9" fill="#000" opacity="0.28"/>
+    <rect x="0" y="598" width="400" height="9" fill="#000" opacity="0.28"/>
+    <polygon points="60,0 180,0 340,600 160,600" fill="hsl(41 85% 68%)" opacity="0.2"/>
+  </g>
+  <rect width="400" height="600" fill="url(#shade)"/>
+  <g>
+    <text x="32" y="430.5" font-size="46" font-weight="800" fill="#fff">Во все</text>
+    <text x="32" y="482" font-size="46" font-weight="800" fill="#fff">тяжкие</text>
+    <rect x="32" y="508" width="44" height="3" fill="hsl(41 85% 72%)"/>
+    <text x="32" y="538" font-size="15" letter-spacing="2" fill="#E8E9F0" opacity="0.85">2008 · СЕРИАЛ · КРИМИНАЛ</text>
+  </g>
+</svg>

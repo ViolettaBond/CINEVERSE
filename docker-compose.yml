@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:16
+    container_name: cineverse-db
+    environment:
+      POSTGRES_USER: cineverse
+      POSTGRES_PASSWORD: cineverse_dev
+      POSTGRES_DB: cineverse
+    ports:
+      - "5435:5432"
+    volumes:
+      - cineverse-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cineverse"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+volumes:
+  cineverse-data:

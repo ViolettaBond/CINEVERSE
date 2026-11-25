@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Дюна" font-family="Inter, 'Segoe UI', Roboto, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(136 55% 24%)"/><stop offset="1" stop-color="hsl(191 60% 9%)"/></linearGradient>
+    <radialGradient id="orb" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="hsl(136 90% 80%)"/><stop offset="1" stop-color="hsl(176 70% 38%)"/></radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#0F1016" stop-opacity="0"/><stop offset="1" stop-color="#0F1016" stop-opacity="0.95"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <g>
+    <circle cx="269.7" cy="168" r="57.2" fill="url(#orb)"/>
+    <path d="M0,600 L0,276 L0,162.2 L40,286 L80,173.3 L120,286 L160,212.1 L200,286 L240,173.1 L280,286 L320,174.4 L360,286 L400,171.8 L440,286 L400,600 Z" fill="hsl(136 60% 34%)" opacity="0.92"/>
+    <path d="M0,600 L0,348 L0,299.4 L40,358 L80,295.2 L120,358 L160,256.5 L200,358 L240,285.7 L280,358 L320,271.7 L360,358 L400,287.8 L440,358 L400,600 Z" fill="hsl(136 50% 25%)" opacity="0.92"/>
+    <path d="M0,600 L0,420 L0,314.2 L40,430 L80,379.1 L120,430 L160,389 L200,430 L240,376.6 L280,430 L320,310.8 L360,430 L400,320 L440,430 L400,600 Z" fill="hsl(136 40% 16%)" opacity="0.92"/>
+  </g>
+  <rect width="400" height="600" fill="url(#shade)"/>
+  <g>
+    <text x="32" y="482" font-size="46" font-weight="800" fill="#fff">Дюна</text>
+    <rect x="32" y="508" width="44" height="3" fill="hsl(136 85% 72%)"/>
+    <text x="32" y="538" font-size="15" letter-spacing="2" fill="#E8E9F0" opacity="0.85">2021 · ФИЛЬМ · ПРИКЛЮЧЕНИЯ</text>
+  </g>
+</svg>

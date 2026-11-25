@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Гладиатор">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(358 55% 24%)"/><stop offset="1" stop-color="hsl(53 60% 9%)"/></linearGradient>
+    <radialGradient id="orb" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="hsl(358 90% 80%)"/><stop offset="1" stop-color="hsl(38 70% 38%)"/></radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#0F1016" stop-opacity="0"/><stop offset="1" stop-color="#0F1016" stop-opacity="0.95"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g>
+    <polygon points="9.4,0 98.8,0 -413.2,720 -502.6,720" fill="hsl(28 80% 60%)" opacity="0.3"/>
+    <polygon points="1206.4,0 1254.6,0 742.6,720 694.4,720" fill="hsl(358 85% 68%)" opacity="0.2"/>
+    <polygon points="1230.8,0 1313.8,0 801.8,720 718.8,720" fill="hsl(28 80% 60%)" opacity="0.3"/>
+    <polygon points="1257.9,0 1344,0 832,720 745.9,720" fill="hsl(358 85% 68%)" opacity="0.3"/>
+    <polygon points="1215.9,0 1276.2,0 764.2,720 703.9,720" fill="hsl(28 80% 60%)" opacity="0.3"/>
+    <polygon points="205.6,0 260,0 -252,720 -306.4,720" fill="hsl(358 85% 68%)" opacity="0.3"/>
+  </g>
+</svg>

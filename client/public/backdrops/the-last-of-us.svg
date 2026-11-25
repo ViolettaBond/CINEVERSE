@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Одни из нас">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(27 55% 24%)"/><stop offset="1" stop-color="hsl(82 60% 9%)"/></linearGradient>
+    <radialGradient id="orb" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="hsl(27 90% 80%)"/><stop offset="1" stop-color="hsl(67 70% 38%)"/></radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#0F1016" stop-opacity="0"/><stop offset="1" stop-color="#0F1016" stop-opacity="0.95"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g>
+    <rect x="678.2" y="0" width="56.9" height="720" fill="hsl(57 80% 60%)" opacity="0.2"/>
+    <rect x="773.7" y="0" width="33" height="720" fill="hsl(27 85% 68%)" opacity="0.2"/>
+    <rect x="92.5" y="0" width="25.4" height="720" fill="hsl(57 80% 60%)" opacity="0.2"/>
+    <rect x="853.7" y="0" width="58.7" height="720" fill="hsl(27 85% 68%)" opacity="0.2"/>
+    <rect x="547.1" y="0" width="32.8" height="720" fill="hsl(57 80% 60%)" opacity="0.1"/>
+    <rect x="462.1" y="0" width="22.5" height="720" fill="hsl(27 85% 68%)" opacity="0.2"/>
+    <rect x="806.5" y="0" width="39.2" height="720" fill="hsl(57 80% 60%)" opacity="0.2"/>
+    <circle cx="819.3" cy="360" r="149.8" fill="url(#orb)" opacity="0.9"/>
+  </g>
+</svg>

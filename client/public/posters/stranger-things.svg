@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Очень странные дела" font-family="Inter, 'Segoe UI', Roboto, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(260 55% 24%)"/><stop offset="1" stop-color="hsl(315 60% 9%)"/></linearGradient>
+    <radialGradient id="orb" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="hsl(260 90% 80%)"/><stop offset="1" stop-color="hsl(300 70% 38%)"/></radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#0F1016" stop-opacity="0"/><stop offset="1" stop-color="#0F1016" stop-opacity="0.95"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <g>
+    <circle cx="376.4" cy="44.4" r="2.1" fill="#fff" opacity="0.6"/>
+    <circle cx="180.4" cy="15.2" r="1" fill="#fff" opacity="0.3"/>
+    <circle cx="379.2" cy="206.3" r="2" fill="#fff" opacity="0.8"/>
+    <circle cx="101.6" cy="512" r="1.4" fill="#fff" opacity="0.5"/>
+    <circle cx="265.2" cy="92.7" r="1.7" fill="#fff" opacity="0.7"/>
+    <circle cx="257.2" cy="440.2" r="1.7" fill="#fff" opacity="0.5"/>
+    <circle cx="311.6" cy="274.7" r="2.1" fill="#fff" opacity="0.7"/>
+    <circle cx="295" cy="319" r="2.1" fill="#fff" opacity="0.8"/>
+    <circle cx="85.5" cy="534.9" r="1.7" fill="#fff" opacity="0.3"/>
+    <circle cx="306.1" cy="536.9" r="2" fill="#fff" opacity="0.5"/>
+    <circle cx="96.2" cy="369" r="2" fill="#fff" opacity="0.8"/>
+    <circle cx="251" cy="244.5" r="1.3" fill="#fff" opacity="0.3"/>
+    <circle cx="37.8" cy="240" r="2" fill="#fff" opacity="0.8"/>
+    <circle cx="381.7" cy="198.2" r="2" fill="#fff" opacity="0.7"/>
+    <circle cx="359.5" cy="214" r="0.8" fill="#fff" opacity="0.9"/>
+    <circle cx="354.6" cy="306" r="0.7" fill="#fff" opacity="0.8"/>
+    <circle cx="372.3" cy="64.5" r="0.6" fill="#fff" opacity="0.8"/>
+    <circle cx="82.9" cy="363.1" r="2.1" fill="#fff" opacity="0.3"/>
+    <circle cx="387.3" cy="183.1" r="0.8" fill="#fff" opacity="0.6"/>
+    <circle cx="88.1" cy="0.3" r="0.8" fill="#fff" opacity="0.9"/>
+    <circle cx="390.4" cy="23.1" r="0.9" fill="#fff" opacity="0.4"/>
+    <circle cx="266.9" cy="491" r="0.7" fill="#fff" opacity="0.6"/>
+    <circle cx="361.7" cy="270.2" r="0.8" fill="#fff" opacity="0.9"/>
+    <circle cx="229.8" cy="335" r="1.3" fill="#fff" opacity="0.9"/>
+    <circle cx="11.3" cy="597.2" r="0.8" fill="#fff" opacity="0.7"/>
+    <circle cx="293.8" cy="244.4" r="0.9" fill="#fff" opacity="0.7"/>
+    <circle cx="373.4" cy="154.6" r="0.8" fill="#fff" opacity="0.4"/>
+    <circle cx="164.3" cy="526.6" r="0.8" fill="#fff" opacity="0.7"/>
+    <circle cx="288.5" cy="327.7" r="1.8" fill="#fff" opacity="0.3"/>
+    <circle cx="219.2" cy="322.3" r="1.7" fill="#fff" opacity="0.4"/>
+    <circle cx="265.9" cy="177.4" r="1.6" fill="#fff" opacity="0.6"/>
+    <circle cx="314.6" cy="569.5" r="1.2" fill="#fff" opacity="0.6"/>
+    <circle cx="5.1" cy="580.9" r="1.3" fill="#fff" opacity="0.8"/>
+    <circle cx="8.2" cy="248.3" r="2" fill="#fff" opacity="0.4"/>
+    <circle cx="219.2" cy="166.5" r="1.3" fill="#fff" opacity="0.7"/>
+    <circle cx="197" cy="348.8" r="2.2" fill="#fff" opacity="0.6"/>
+    <circle cx="291.1" cy="25.3" r="0.9" fill="#fff" opacity="0.7"/>
+    <circle cx="160.5" cy="491.2" r="1" fill="#fff" opacity="0.3"/>
+    <circle cx="15.3" cy="386.3" r="0.9" fill="#fff" opacity="0.6"/>
+    <circle cx="365.4" cy="505.7" r="1.1" fill="#fff" opacity="0.3"/>
+    <circle cx="135.8" cy="422.5" r="1.4" fill="#fff" opacity="0.5"/>
+    <circle cx="335" cy="269.4" r="2.1" fill="#fff" opacity="0.3"/>
+    <circle cx="263.3" cy="79.3" r="1.4" fill="#fff" opacity="0.8"/>
+    <circle cx="303.1" cy="125" r="0.9" fill="#fff" opacity="0.5"/>
+    <circle cx="382.2" cy="104.9" r="1.6" fill="#fff" opacity="0.3"/>
+    <circle cx="68" cy="344.3" r="1.2" fill="#fff" opacity="0.8"/>
+    <circle cx="126.7" cy="100.6" r="1.8" fill="#fff" opacity="0.4"/>
+    <circle cx="39.5" cy="64" r="1.8" fill="#fff" opacity="0.5"/>
+    <circle cx="182.6" cy="65.9" r="1.5" fill="#fff" opacity="0.7"/>
+    <circle cx="196.1" cy="13" r="1.7" fill="#fff" opacity="0.7"/>
+    <circle cx="257.7" cy="204" r="104" fill="url(#orb)"/>
+    <ellipse cx="257.7" cy="204" rx="176.8" ry="36.4" fill="none" stroke="hsl(260 85% 68%)" stroke-width="3" opacity="0.7" transform="rotate(-18 257.7 204)"/>
+  </g>
+  <rect width="400" height="600" fill="url(#shade)"/>
+  <g>
+    <text x="32" y="379" font-size="46" font-weight="800" fill="#fff">Очень</text>
+    <text x="32" y="430.5" font-size="46" font-weight="800" fill="#fff">странные</text>
+    <text x="32" y="482" font-size="46" font-weight="800" fill="#fff">дела</text>
+    <rect x="32" y="508" width="44" height="3" fill="hsl(260 85% 72%)"/>
+    <text x="32" y="538" font-size="15" letter-spacing="2" fill="#E8E9F0" opacity="0.85">2016 · СЕРИАЛ · ФАНТАСТИКА</text>
+  </g>
+</svg>

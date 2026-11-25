@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Остров проклятых">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(166 55% 24%)"/><stop offset="1" stop-color="hsl(221 60% 9%)"/></linearGradient>
+    <radialGradient id="orb" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="hsl(166 90% 80%)"/><stop offset="1" stop-color="hsl(206 70% 38%)"/></radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#0F1016" stop-opacity="0"/><stop offset="1" stop-color="#0F1016" stop-opacity="0.95"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g>
+    <circle cx="1078.4" cy="479.9" r="297.9" fill="hsl(166 85% 68%)" opacity="0.1" filter="url(#blur)"/>
+    <circle cx="102" cy="207.9" r="144.8" fill="hsl(166 85% 68%)" opacity="0.1" filter="url(#blur)"/>
+    <circle cx="1042.2" cy="42.1" r="128.1" fill="hsl(166 85% 68%)" opacity="0.1" filter="url(#blur)"/>
+    <circle cx="931" cy="236.5" r="241.4" fill="hsl(166 85% 68%)" opacity="0.1" filter="url(#blur)"/>
+    <circle cx="220.2" cy="288" r="251.7" fill="hsl(166 85% 68%)" opacity="0.1" filter="url(#blur)"/>
+    <rect x="683.5" y="0" width="6" height="720" fill="#fff" opacity="0.5" filter="url(#blur)"/>
+  </g>
+</svg>

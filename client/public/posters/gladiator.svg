@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Гладиатор" font-family="Inter, 'Segoe UI', Roboto, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(358 55% 24%)"/><stop offset="1" stop-color="hsl(53 60% 9%)"/></linearGradient>
+    <radialGradient id="orb" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="hsl(358 90% 80%)"/><stop offset="1" stop-color="hsl(38 70% 38%)"/></radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#0F1016" stop-opacity="0"/><stop offset="1" stop-color="#0F1016" stop-opacity="0.95"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <g>
+    <polygon points="2.9,0 92.3,0 -67.7,600 -157.1,600" fill="hsl(28 80% 60%)" opacity="0.3"/>
+    <polygon points="377,0 425.3,0 265.3,600 217,600" fill="hsl(358 85% 68%)" opacity="0.2"/>
+    <polygon points="384.6,0 467.6,0 307.6,600 224.6,600" fill="hsl(28 80% 60%)" opacity="0.3"/>
+    <polygon points="393.1,0 479.1,0 319.1,600 233.1,600" fill="hsl(358 85% 68%)" opacity="0.3"/>
+    <polygon points="380,0 440.3,0 280.3,600 220,600" fill="hsl(28 80% 60%)" opacity="0.3"/>
+    <polygon points="64.3,0 118.7,0 -41.3,600 -95.7,600" fill="hsl(358 85% 68%)" opacity="0.3"/>
+  </g>
+  <rect width="400" height="600" fill="url(#shade)"/>
+  <g>
+    <text x="32" y="482" font-size="46" font-weight="800" fill="#fff">Гладиатор</text>
+    <rect x="32" y="508" width="44" height="3" fill="hsl(358 85% 72%)"/>
+    <text x="32" y="538" font-size="15" letter-spacing="2" fill="#E8E9F0" opacity="0.85">2000 · ФИЛЬМ · БОЕВИК</text>
+  </g>
+</svg>

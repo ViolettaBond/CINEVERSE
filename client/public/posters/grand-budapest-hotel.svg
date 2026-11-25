@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Отель «Гранд Будапешт»" font-family="Inter, 'Segoe UI', Roboto, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(357 55% 24%)"/><stop offset="1" stop-color="hsl(52 60% 9%)"/></linearGradient>
+    <radialGradient id="orb" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="hsl(357 90% 80%)"/><stop offset="1" stop-color="hsl(37 70% 38%)"/></radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#0F1016" stop-opacity="0"/><stop offset="1" stop-color="#0F1016" stop-opacity="0.95"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="400" height="600" fill="url(#bg)"/>
+  <g>
+    <circle cx="270.4" cy="15.4" r="16.1" fill="hsl(65.19021934177727 85% 62%)" opacity="0.5"/>
+    <circle cx="280.9" cy="393.4" r="7.9" fill="hsl(69.75530105223879 85% 62%)" opacity="0.7"/>
+    <circle cx="361.8" cy="187.6" r="18.4" fill="hsl(31.25411470932886 85% 62%)" opacity="0.7"/>
+    <circle cx="347" cy="385.4" r="29.3" fill="hsl(28.467201684135944 85% 62%)" opacity="0.3"/>
+    <circle cx="93.7" cy="255" r="15.4" fill="hsl(79.5388149661012 85% 62%)" opacity="0.3"/>
+    <circle cx="26.7" cy="423.1" r="13.7" fill="hsl(81.53274861210957 85% 62%)" opacity="0.4"/>
+    <circle cx="372.3" cy="10.3" r="20.6" fill="hsl(75.74138461891562 85% 62%)" opacity="0.4"/>
+    <circle cx="48.1" cy="86.2" r="16.5" fill="hsl(20.620496965013444 85% 62%)" opacity="0.3"/>
+    <circle cx="70.9" cy="135.3" r="13" fill="hsl(15.150476887822151 85% 62%)" opacity="0.3"/>
+    <circle cx="146.6" cy="286.5" r="6.7" fill="hsl(2.237334987614304 85% 62%)" opacity="0.6"/>
+    <circle cx="79.2" cy="367.6" r="17.9" fill="hsl(79.4042438250035 85% 62%)" opacity="0.7"/>
+    <circle cx="33.8" cy="181.4" r="28.7" fill="hsl(29.173013943247497 85% 62%)" opacity="0.3"/>
+    <circle cx="339.8" cy="393" r="23.5" fill="hsl(32.75082711176947 85% 62%)" opacity="0.5"/>
+    <circle cx="362.9" cy="83.3" r="19.3" fill="hsl(45.397393121849746 85% 62%)" opacity="0.4"/>
+    <circle cx="322.6" cy="79.7" r="8.4" fill="hsl(24.107524734456092 85% 62%)" opacity="0.4"/>
+    <circle cx="384.4" cy="315.3" r="25.5" fill="hsl(69.09428252186626 85% 62%)" opacity="0.5"/>
+    <circle cx="173" cy="460" r="30.9" fill="hsl(15.013597559183836 85% 62%)" opacity="0.4"/>
+    <circle cx="243.7" cy="47.9" r="12" fill="hsl(70.02729724673554 85% 62%)" opacity="0.5"/>
+    <circle cx="121.9" cy="384.7" r="26.3" fill="hsl(68.40592325013131 85% 62%)" opacity="0.4"/>
+    <circle cx="164.5" cy="85.8" r="21.4" fill="hsl(32.07095969282091 85% 62%)" opacity="0.3"/>
+    <circle cx="155.7" cy="74.4" r="27.8" fill="hsl(17.98148392047733 85% 62%)" opacity="0.5"/>
+    <circle cx="183.7" cy="338.2" r="15.9" fill="hsl(68.90635541221127 85% 62%)" opacity="0.7"/>
+    <circle cx="28.8" cy="466" r="7" fill="hsl(62.896779529284686 85% 62%)" opacity="0.6"/>
+    <circle cx="6.5" cy="272.3" r="9.4" fill="hsl(20.29036820679903 85% 62%)" opacity="0.5"/>
+    <circle cx="381.3" cy="280.4" r="14.9" fill="hsl(20.823582474142313 85% 62%)" opacity="0.6"/>
+    <circle cx="168" cy="185.8" r="21.6" fill="hsl(74.8758748085238 85% 62%)" opacity="0.6"/>
+    <circle cx="379.6" cy="389.5" r="10.6" fill="hsl(20.130577113479376 85% 62%)" opacity="0.6"/>
+    <circle cx="39.4" cy="289.9" r="29.9" fill="hsl(78.8783118808642 85% 62%)" opacity="0.5"/>
+  </g>
+  <rect width="400" height="600" fill="url(#shade)"/>
+  <g>
+    <text x="32" y="430.5" font-size="46" font-weight="800" fill="#fff">Отель «Гранд</text>
+    <text x="32" y="482" font-size="46" font-weight="800" fill="#fff">Будапешт»</text>
+    <rect x="32" y="508" width="44" height="3" fill="hsl(357 85% 72%)"/>
+    <text x="32" y="538" font-size="15" letter-spacing="2" fill="#E8E9F0" opacity="0.85">2014 · ФИЛЬМ · КОМЕДИЯ</text>
+  </g>
+</svg>

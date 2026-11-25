@@ -1,0 +1,117 @@
+# CI Cineverse для GitVerse.
+# Запускается при каждом push и при создании/обновлении Pull Request.
+# ВАЖНО: файл написан в синтаксисе, совместимом с GitHub Actions (его поддерживает GitVerse CI).
+# Блок `services` (контейнер PostgreSQL) в документации GitVerse я не нашёл —
+# проверьте его при первом запуске пайплайна. Если он не поддерживается, см. раздел «CI» в README.
+
+name: CI
+
+on:
+  push:
+  pull_request:
+
+env:
+  DB_HOST: localhost
+  DB_PORT: "5435"
+  DB_USER: cineverse
+  DB_PASSWORD: cineverse_ci
+  DB_NAME: cineverse
+  # Секреты только для тестового окружения CI; реальных паролей и токенов в репозитории нет
+  JWT_SECRET: ci-secret-only-for-tests
+  SEED_ADMIN_PASSWORD: CiAdminPass123
+  SEED_USER_PASSWORD: CiUserPass123
+
+jobs:
+  # 1. Установка зависимостей, проверка TypeScript, сборка frontend, проверка backend, Unit-тесты
+  build-and-unit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Установка зависимостей frontend
+        run: npm ci
+        working-directory: client
+      - name: Проверка TypeScript и сборка frontend
+        run: npm run build
+        working-directory: client
+      - name: Unit-тесты frontend
+        run: npm run test:unit
+        working-directory: client
+
+      - name: Установка зависимостей backend
+        run: npm ci
+        working-directory: server
+      - name: Проверка синтаксиса backend
+        run: find src index.js -name "*.js" -exec node --check {} \;
+        working-directory: server
+      - name: Unit-тесты backend
+        run: npm run test:unit
+        working-directory: server
+
+  # 2. Integration-тесты backend с настоящей PostgreSQL (отдельная БД cineverse_test)
+  integration:
+    needs: build-and-unit
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: cineverse
+          POSTGRES_PASSWORD: cineverse_ci
+          POSTGRES_DB: cineverse
+        ports:
+          - 5435:5432
+        options: >-
+          --health-cmd "pg_isready -U cineverse"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+        working-directory: server
+      - name: Integration-тесты
+        run: npm run test:integration
+        working-directory: server
+
+  # 3. E2E-тесты в браузере (Playwright), запускаются последними
+  e2e:
+    needs: integration
+    runs-on: ubuntu-latest
+    services:
+      postgres:
+        image: postgres:16
+        env:
+          POSTGRES_USER: cineverse
+          POSTGRES_PASSWORD: cineverse_ci
+          POSTGRES_DB: cineverse
+        ports:
+          - 5435:5432
+        options: >-
+          --health-cmd "pg_isready -U cineverse"
+          --health-interval 5s
+          --health-timeout 3s
+          --health-retries 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+        working-directory: server
+      - run: npm ci
+        working-directory: client
+      - run: npm ci
+        working-directory: e2e
+      - name: Установка браузера Chromium
+        run: npx playwright install --with-deps chromium
+        working-directory: e2e
+      - name: E2E-тесты
+        run: npm test
+        working-directory: e2e

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Дюна">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="hsl(136 55% 24%)"/><stop offset="1" stop-color="hsl(191 60% 9%)"/></linearGradient>
+    <radialGradient id="orb" cx="0.35" cy="0.3" r="0.8"><stop offset="0" stop-color="hsl(136 90% 80%)"/><stop offset="1" stop-color="hsl(176 70% 38%)"/></radialGradient>
+    <linearGradient id="shade" x1="0" y1="0" x2="0" y2="1"><stop offset="0.35" stop-color="#0F1016" stop-opacity="0"/><stop offset="1" stop-color="#0F1016" stop-opacity="0.95"/></linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="22"/></filter>
+  </defs>
+  <rect width="1280" height="720" fill="url(#bg)"/>
+  <g>
+    <circle cx="863" cy="201.6" r="103" fill="url(#orb)"/>
+    <path d="M0,720 L0,331.2 L0,217.4 L128,341.2 L256,228.5 L384,341.2 L512,267.3 L640,341.2 L768,228.3 L896,341.2 L1024,229.6 L1152,341.2 L1280,227 L1408,341.2 L1280,720 Z" fill="hsl(136 60% 34%)" opacity="0.92"/>
+    <path d="M0,720 L0,417.6 L0,369 L128,427.6 L256,364.8 L384,427.6 L512,326.1 L640,427.6 L768,355.3 L896,427.6 L1024,341.3 L1152,427.6 L1280,357.4 L1408,427.6 L1280,720 Z" fill="hsl(136 50% 25%)" opacity="0.92"/>
+    <path d="M0,720 L0,504 L0,398.2 L128,514 L256,463.1 L384,514 L512,473 L640,514 L768,460.6 L896,514 L1024,394.8 L1152,514 L1280,404 L1408,514 L1280,720 Z" fill="hsl(136 40% 16%)" opacity="0.92"/>
+  </g>
+</svg>
